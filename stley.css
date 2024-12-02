@@ -181,4 +181,76 @@ section{
     rotate: 180deg;
 }
 
+/*  */
+
+.titulos{
+    position: absolute;
+    background: linear-gradient(
+        180deg,
+        #D8ACED,
+        #C489E1,
+        #BD71E3,
+        #8E45B2
+    );
+    width: 504px;
+    height: 139px;
+    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 101px;
+}
+
+
+
+.titulos h2{
+    text-align: center;
+}
+
+
+#Experimentos .titulos{
+    width: 504px;
+    top: calc(10vh + 10px);
+    left: 2vh;
+}
+
+.elementosIMG1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 25%;
+}
+
+.meioEx{
+    width: 100%;
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10vw;
+}
+
+.textoPadrao{
+    background-image: url(./img/textoPadrao.png);
+    background-size: cover;
+    width: 664px;
+    height: 444.83px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.textoPadrao p{
+    width: 100%;
+    height: 100%;
+    font-size: 44px;
+}
+
+.video{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
 
