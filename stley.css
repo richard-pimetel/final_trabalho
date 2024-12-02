@@ -356,3 +356,62 @@ section{
     border-radius: 34px;
 }
 
+/*  */
+
+
+#Ligacoes{
+    display: flex;
+    gap: 50px;
+    align-items: end;
+    padding: 10px;
+    padding-inline: 5vw;
+}
+
+#Ligacoes .titulos{
+    display: flex;
+    width: 38%;
+    top: calc(10vh + 10px);
+    left: 5vh;
+}
+
+
+#textoPadrao1{
+    width: 40%;
+    height: 692px;
+}
+
+#textoPadrao1 *{
+    font-size: 30px;
+}
+
+
+#textoPadrao2{
+    font-size: 28px;
+    width: 40%;
+    height: 943px;
+}
+
+#textoPadrao2 *{
+    font-size: 34px;
+}
+
+.imgTexto{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+#textoPadrao3{
+    font-size: 28px;
+    width: 100%;
+    height: 521px;
+}
+
+#textoPadrao3 *{
+    font-size: 34px;
+}
+
