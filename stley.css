@@ -549,4 +549,21 @@ section{
     .video video{
         width: 90%;
     }    
+
+    /* */
+
+    #Programacao .textoPadrao{
+        width: 100%;
+        height: auto;
+    }
+    
+    .textos2{
+        padding-top: 25vh;
+        flex-direction: column;
+        gap: 40px;
+        font-size: 20px;
+    }
+
+
+    
 }
