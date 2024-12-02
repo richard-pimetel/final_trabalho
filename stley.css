@@ -65,4 +65,120 @@ header nav ul{
 }
 
 
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(to right, #c890e1, #a758cf, #a147ce, #9a0ee0);
+}
+
+
+h1{
+    font-size: 100px;
+    width: 20%;
+    text-align: center;
+    position: absolute;
+    top: 25vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding-inline: 1vh;
+    padding-top: 10vh;
+}
+
+
+.imagensSeparadas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30%;
+}
+
+.caixaDetexto{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 70%;
+    width: 100%;
+    padding: 10px;
+}
+
+.textos1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textos1 div{
+    font-size: 28px;
+    width: 100%;
+    height: 48%;
+    padding: 10px;
+    background: linear-gradient(
+        180deg,
+        #D8ACED,
+        #C489E1,
+        #BD71E3,
+        #8E45B2
+    );
+}
+
+.setas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1vh;
+}
+
+.meioSS{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.textoSetas{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    background-color: #8d18db;
+    border-radius: 50px;
+}
+
+
+.textoSetas h3{
+    text-align: center;
+}
+
+
+.seta11{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#setaCima :first-child{
+    rotate: 180deg;
+}
+
+
+
+#setaBaixo :first-child{
+    rotate: 180deg;
+}
+
 
