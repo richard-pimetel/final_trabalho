@@ -478,7 +478,7 @@ section{
         display: none;
     }
 
-    /*  */
+    /* Home */
 
     .titulos{
         width: 50%;
@@ -509,7 +509,7 @@ section{
         transform: translate(-50%, -50%)
     }
 
-    /*  */
+    /* Experimentos */
 
     .elementosIMG1{
         display: none;
@@ -550,7 +550,7 @@ section{
         width: 90%;
     }    
 
-    /* */
+    /*Programação */
 
     #Programacao .textoPadrao{
         width: 100%;
@@ -564,7 +564,7 @@ section{
         font-size: 20px;
     }
 
-    /*  */
+    /* Tabela */
 
     #Tabela{
         padding-top: 30vh;
@@ -584,5 +584,39 @@ section{
         font-size: 20px;
     }
 
+
+     /*Ligações  */
+
+
+     #Ligacoes{
+        padding-top: 35vh;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }   
+    
+    #textoPadrao1{
+        font-size: 24px;
+        width: 90%;
+        height: auto;
+    }
+    
+    #textoPadrao2{
+        font-size: 24px;
+        width: 90%;
+        height: auto;
+    }
+    
+    .imgTexto{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #textoPadrao3{
+        font-size: 24px;
+        width: 90%;
+        height: auto;
+    }
     
 }
