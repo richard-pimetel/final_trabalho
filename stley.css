@@ -564,6 +564,25 @@ section{
         font-size: 20px;
     }
 
+    /*  */
+
+    #Tabela{
+        padding-top: 30vh;
+        align-items: center;
+    }
+    
+    .textoEelementos{
+        flex-direction: column;
+        padding-inline: 10px;
+        padding-top: 40px;
+        justify-content: center
+    }
+    
+    .texto1{
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+    }
 
     
 }
