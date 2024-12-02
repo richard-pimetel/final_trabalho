@@ -295,3 +295,64 @@ section{
     list-style: initial;
 }
 
+
+/*  */
+
+#Tabela{
+    display: flex;
+    flex-direction: column;
+}
+
+#Tabela .titulos{
+    display: flex;
+    width: 577px;
+    top: 25vh;
+    left: 50vw;
+    transform: translate(-50%, -50%)
+}
+
+.textoEelementos{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    padding-inline: 10vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elementosTabela{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.elementosTabela img{
+    position:absolute;
+}
+
+
+.frasco{
+    width: 273px;
+    height: 282px;
+    left: 5%;
+    bottom: 10px;
+}
+
+
+
+.frascos{
+    width: 169px;
+    height: 179px;
+    right: 20%;
+    top: 10%;
+}
+
+.texto1{
+    width: 617px;
+    height: 521px;
+    font-size: 28px;
+    padding: 10px;
+    background-color: #8219DE;
+    border-radius: 34px;
+}
+
