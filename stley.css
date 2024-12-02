@@ -473,6 +473,36 @@ section{
         display: none;
     }
 
+    /*  */
 
-    
+    .titulos{
+        width: 50%;
+        height: 100px;
+        font-size: 18px;
+        border-radius: 50px;
+        top: 25vh;
+        left: 50vw;
+        transform: translate(-50%, -50%)
+    }
+
+    #Experimentos .titulos{
+        width: 50%;
+        top: 25vh;
+        left: 50vw;
+        transform: translate(-50%, -50%)
+    }
+
+    #Tabela .titulos{
+        width: 50%;
+
+    }
+
+    #Ligacoes .titulos{
+        width: 50%;
+        top: 25vh;
+        left: 50vw;
+        transform: translate(-50%, -50%)
+    }
+
+        
 }
